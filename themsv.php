@@ -9,7 +9,7 @@ if (isset($_SESSION['username'])) {
 
 	<head>
 		<meta charset="utf-8">
-		<title>SM - Trang chủ</title>
+		<title>Add Student</title>
 		<link rel="stylesheet" href="style/fontawesome/css/all.css">
 		<link rel="shortcut icon" href="image/logo.ico">
 		<script src="https://kit.fontawesome.com/6161a2d888.js" crossorigin="anonymous"></script>
@@ -134,6 +134,6 @@ if (isset($_SESSION['username'])) {
 </html>
 <?php
 } else {
-	header('location:./login.php');
+	header('location:login.php');
 }
 ?>
